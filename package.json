@@ -1,0 +1,44 @@
+{
+  "name": "wp-theme",
+  "version": "1.0.0",
+  "author": "Vas-y Paulette",
+  "description": "WordPress Theme",
+  "directories": {
+    "test": "tests"
+  },
+  "volta": {
+    "node": "16.15.0"
+  },
+  "scripts": {
+    "start": "export NODE_ENV=development && webpack serve",
+    "build": "export NODE_ENV=development && webpack",
+    "build:production": "export NODE_ENV=production && webpack"
+  },
+  "license": "private",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "esbuild-loader": "^3.0.1",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-nesting": "^11.2.2",
+    "sass": "^1.32.7",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.5.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.7.2",
+    "webpack-notifier": "^1.15.0"
+  }
+}
